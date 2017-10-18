@@ -1,11 +1,9 @@
 package ssh
 
 import (
-	"log"
-	"os"
-	"golang.org/x/crypto/ssh"
+	//"golang.org/x/crypto/ssh"
 )
 
-func createSession() {
-	
+func CreateSession(remoteServer string, keypath string, pass string) {
+
 }
